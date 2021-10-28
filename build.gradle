@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven { url = 'https://maven.enginehub.org/repo/' }
+    maven { url = 'https://repo.codemc.io/repository/nms-local/' }
+    mavenCentral()
+}
+
+configurations.all {
+  transitive = false
+}
+
+dependencies {
+  compileOnly 'com.sk89q.worldedit:worldedit-core:7.1.0-SNAPSHOT'
+  compileOnly 'com.sk89q.worldedit:worldedit-bukkit:7.1.0-SNAPSHOT'
+  compileOnly 'org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT'
+  compileOnly 'org.projectlombok:lombok:1.18.22'
+
+  annotationProcessor 'org.projectlombok:lombok:1.18.22'
+}

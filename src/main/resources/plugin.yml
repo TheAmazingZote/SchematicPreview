@@ -1,0 +1,10 @@
+name: SchematicPreview
+main: me.zote.spp.SchematicPreview
+author: Zote
+version: 1.0
+api-version: 1.13
+depend: [WorldEdit]
+
+commands:
+  build:
+    description: Preview command
