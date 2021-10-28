@@ -3,4 +3,4 @@
 There are a few bugs, which has to do with rotation
 Code may need a clean-up
 
-![preview](https://i.imgur.com/WL0x0ND.mp4 "Preview gif")
+![Preview GIF](https://i.imgur.com/7YsnnC6.gif "Preview gif")
